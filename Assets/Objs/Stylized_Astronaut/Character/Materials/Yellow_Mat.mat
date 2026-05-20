@@ -9,9 +9,10 @@ Material:
   m_PrefabAsset: {fileID: 0}
   m_Name: Yellow_Mat
   m_Shader: {fileID: 46, guid: 0000000000000000f000000000000000, type: 0}
-  m_Parent: {fileID: 2100000, guid: 06eb4e637b7ef614e9265f48c542664b, type: 2}
-  m_ModifiedSerializedProperties: 0
-  m_ValidKeywords: []
+  m_Parent: {fileID: 2100000, guid: de5b7f98ceda7a0469f39c032a0cb247, type: 2}
+  m_ModifiedSerializedProperties: 16
+  m_ValidKeywords:
+  - _EMISSION
   m_InvalidKeywords: []
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
@@ -25,9 +26,14 @@ Material:
     m_TexEnvs: []
     m_Ints: []
     m_Floats:
-    - _Glossiness: 0.654
-    - _Metallic: 0.962
+    - _DstBlend: 0
+    - _Glossiness: 1
+    - _Metallic: 0.659
+    - _Mode: 0
+    - _SmoothnessTextureChannel: 0
+    - _SrcBlend: 1
+    - _ZWrite: 1
     m_Colors:
-    - _Color: {r: 0.9245283, g: 0.58779204, b: 0.14391243, a: 1}
+    - _Color: {r: 1, g: 0.5686275, b: 0, a: 1}
   m_BuildTextureStacks: []
   m_AllowLocking: 1
