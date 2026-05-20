@@ -364,7 +364,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d196643ce65060747b1bf5e1e41e6136, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PlayerController
-  moveSpeed: 5
+  moveSpeed: 25
   rotationSpeed: 720
 --- !u!54 &228814991
 Rigidbody:
@@ -428,6 +428,7 @@ GameObject:
   - component: {fileID: 262061768}
   - component: {fileID: 262061767}
   - component: {fileID: 262061766}
+  - component: {fileID: 262061770}
   m_Layer: 0
   m_Name: Plane
   m_TagString: Untagged
@@ -529,6 +530,22 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &262061770
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 262061765}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 797406a82f2e82048b2b270f2ddd39bb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::OceanWaves
+  waveHeight: 0.1
+  waveFrequency: 1.2
+  waveSpeed: 1.5
+  colorPulseSpeed: 1
 --- !u!1 &330585543
 GameObject:
   m_ObjectHideFlags: 0
